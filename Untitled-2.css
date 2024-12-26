@@ -1,0 +1,94 @@
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+/* Conteneur principal */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Boîte de connexion */
+.login-box {
+    background-color: #222;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Titre */
+h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Chacun des champs de texte */
+.textbox {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.textbox input::placeholder {
+    color: #aaa;
+}
+
+/* Checkbox "Se souvenir de moi" */
+.remember-me {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Bouton de soumission */
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* Liens sous forme de texte */
+.links {
+    margin-top: 15px;
+}
+
+.links a {
+    color: #58a6ff;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
